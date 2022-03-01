@@ -1,0 +1,404 @@
+Metode on of virus
+
+••••••••••••••••••••••••••••••••••••••••••••••••••••
+On of virus 
+-+--+-- IMMUNE xry mods-+--+--
+com -> sammods -> privacy
+
+.method public static rycolor_Button(I)I
+    .registers 8
+
+    const-string v0, "rycolor_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static virvid_Button(I)I
+    .registers 8
+
+    const-string v0, "virvid_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static xryalakazam_Button(I)I
+    .registers 8
+
+    const-string v0, "xryalakazam_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static virlog_Button(I)I
+    .registers 8
+
+    const-string v0, "virlog_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static XRYMODS_Enable_Button(I)I
+    .registers 8
+
+    const-string v0, "XRYMODS_Enable_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static ryvtext_Button(I)I
+    .registers 8
+
+    const-string v0, "ryvtext_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static ryfast_Button(I)I
+    .registers 8
+
+    const-string v0, "ryfast_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+.method public static ryimage_Button(I)I
+    .registers 8
+
+    const-string v0, "ryimage_Button"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_a
+
+    const/4 v0, 0x1
+
+    :goto_9
+    return v0
+
+    :cond_a
+    const/4 v0, 0x0
+
+    goto :goto_9
+.end method
+
+
+
+
+__________
+
+Cari vcard2.1
+
+Add di register 2 sama register dibawah register 5
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->XRYMODS_Enable_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+
+search -> setCaption
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->virvid_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+
+search -> TextEmojiLabel
+
+
+Cari A02
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->virlog_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+
+
+search -> webpage
+
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->xryalakazam_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+
+
+V text
+
+Cari "(@\\d+)"
+
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->ryvtext_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+
+cari 
+LinkColor
+
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->rycolor_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+    Cari 
+qrsession/fservice/delayed exec
+    
+
+const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->ryfast_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+    cari
+    
+    conversationrowimage
+    
+    
+    
+    
+    const/4 v0, 0x0
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->ryimage_Button(I)I
+
+    move-result v0
+
+    if-eqz v0, :cond_8
+
+    return-void
+
+    :cond_8
+    
+
+
+Cari samprivacy
+
+<PreferenceCategory android:title="MODE KEBAL TERHADAP VIRUS"/>
+ <CheckBoxPreference
+        android:title="KEBAL VIRUS KATALOG"
+        android:key="virlog_Button"
+        android:summary=" Pencet untuk kebal virus katalog"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="KEBAL VIRUS VIDIO"
+        android:key="virvid_Button"
+        android:summary=" Pencet untuk kebal virus vidio"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="KEBAL V CARD"       android:key="XRYMODS_Enable_Button"
+        android:summary="Pencet untuk kebal virus kontak"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="KEBAL VIRUS WEB"
+        android:key="xryalakazam_Button"
+        android:summary="Pencet untuk kebal virus web"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="LINK BIRU MODE"
+        android:key="rycolor_Button"
+        android:summary="Pencet untuk matikan link biru"
+        android:defaultValue="false" />
+    <CheckBoxPreference
+        android:title="KEBAL VIRTEX"
+        android:key="ryvtext_Button"
+        android:summary=" Pencet untuk kebal virtek"
+        android:defaultValue="false" />
+ <CheckBoxPreference
+        android:title="FAST SEND VIRUS"
+        android:key="ryfast_Button"
+        android:summary=" Pencet untuk bisa menambah kecepatan send virus"
+        android:defaultValue="false" />
+          <CheckBoxPreference
+        android:title="KEBAL VIRUS IMAGE"
+        android:key="ryimage_Button"
+        android:summary=" Pencet untuk kebal virus image"
+        android:defaultValue="false" />
+ 
+
+
+
+DEVELOPER BY 《XRYMODS》
+
+___________________________________
+
+
+.method public static kuntul(Ljava/lang/String;)Ljava/lang/String;
+    .registers 2
+
+    const-string v0, "kuntul"
+
+    invoke-static {v0}, Lcom/sammods/Privacy;->getPrivacyB(Ljava/lang/String;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_3e
+
+    const-string v0, " "
+
+    goto :goto_3e
+
+    :cond_3e
+    move-object v0, p0
+
+    :goto_3e
+    return-object v0
+.end method
+
+
+invoke-static {v0}, Lcom/sammods/Privacy;->kuntul(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+    
+    
+    
+    <CheckBoxPreference
+            android:title="VIRUS FOTO DI TOLAK"
+            android:key="kuntul"
+            android:summary="Virus foto tidak bakalan masuk"
+            android:defaultValue="false" />
